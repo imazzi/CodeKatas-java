@@ -1,9 +1,9 @@
 # CodeKatas-java
 Kata are code challenges focused on improving skill and technique.
 
-<h1>TestDrivenDevelopment</h1>
+<h1>Test-Driven Development(TDD)</h1>
 <p>
-TestDrivenDevelopment is a way of working, or a process for writing code. You work is paced in BabySteps and your progress is assured by frequently writing and running 
+TDD is a way of working, or a process for writing code. You work is paced in BabySteps and your progress is assured by frequently writing and running 
 automated tests. Coding proceeds in an extremely focused and productive rhythm:
 </p>  
   <ol>
