@@ -1,4 +1,4 @@
-package stringCalculator.main;
+package com.katas.calculator.main;
 
 import java.util.Arrays;
 
@@ -22,4 +22,6 @@ public class Calculator {
         }
         return Arrays.stream(numbers).filter(i->i<1000).sum();
     }
+
+
 }

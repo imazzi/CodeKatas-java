@@ -1,4 +1,4 @@
-package fizzbuzz.main;
+package com.katas.fizzbuzz.main;
 
 import java.util.ArrayList;
 import java.util.List;

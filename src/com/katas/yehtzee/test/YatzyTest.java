@@ -1,6 +1,7 @@
-package Yehtzee.test;
+package com.katas.yehtzee.test;
 
-import Yehtzee.main.Yatzy;
+import com.katas.yehtzee.main.Yatzy;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -9,7 +10,7 @@ public class YatzyTest {
 
     @Test
     public void should_return_sumOfAllDices() {
-        assertEquals(15, Yatzy.sumOfAllDices(List.of(2,3,4,5,1)));
+        Assertions.assertEquals(15, Yatzy.sumOfAllDices(List.of(2,3,4,5,1)));
         assertEquals(16, Yatzy.sumOfAllDices(List.of(3,3,4,5,1)));
     }
 

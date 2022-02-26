@@ -1,7 +1,7 @@
-package stringCalculator.test;
+package com.katas.calculator.test;
 
 import org.junit.jupiter.api.Test;
-import stringCalculator.main.Calculator;
+import com.katas.calculator.main.Calculator;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -49,6 +49,8 @@ class CalculatorTest {
     public void should_ignore_1000(){
         assertEquals(6,Calculator.add("1,2,3,1001"));
     }
+
+
 
 //    @Test
 //    public void should_return_sum_when_given_moreThanTwo_numbers_with_Delimiters_of_any_length(){

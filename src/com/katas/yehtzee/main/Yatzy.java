@@ -1,4 +1,4 @@
-package Yehtzee.main;
+package com.katas.yehtzee.main;
 
 import java.util.*;
 import java.util.stream.Collectors;
