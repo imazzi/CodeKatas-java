@@ -30,7 +30,9 @@ public class FizzBuzzTest {
 
     @Test
     void should_return_fizz_or_buzz_or_fizzbuzz_or_number_depends_on_number(){
-        assertEquals(List.of("1: 1", "2: 2", "3: fizz", "4: 4", "5: buzz"),FizzBuzz.fizzBuzzNth(5));
+        assertEquals(List.of("1","2","fizz","4","buzz","fizz","7","8","fizz","buzz","11","fizz","13","14","fizzbuzz"),FizzBuzz.fizzBuzzNth(15));
+        assertEquals(List.of("1","2","fizz","4","buzz"),FizzBuzz.fizzBuzzNth(5));
+        assertEquals(List.of("1","2","fizz"),FizzBuzz.fizzBuzzNth(3));
     }
 
 

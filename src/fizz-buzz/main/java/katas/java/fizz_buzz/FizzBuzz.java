@@ -17,7 +17,7 @@ public class FizzBuzz {
     public static List<String> fizzBuzzNth(int number) {
         List<String> result = new ArrayList<>();
         for(int i = 1;i<=number;i++){
-            result.add(i+": "+fizzBuzz(i));
+            result.add(fizzBuzz(i));
         }
         return result;
     }
