@@ -1,10 +1,8 @@
 package katas.java.fizz_buzz;
 
 import org.junit.jupiter.api.Test;
-
-import java.util.List;
-
 import static org.junit.jupiter.api.Assertions.*;
+
 public class FizzBuzzTest {
 
     @Test
